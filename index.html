@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--自定义弹框-->
+<html lang="zh">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/mbox.css"/>  <!--背景样式 弹框样式-->
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script><!--jquery库-->
+	<script type="text/javascript" src="js/jm-qi.js" ></script><!--自定义弹框大小，提示信息，样式，icon。。。。-->
+</head>
+<body>
+	<a style="cursor: pointer" class="delcompanyClass">删除</a>
+	<script>					
+		$(".delcompanyClass").on('click',function(){
+			$.mbox({
+				area: [ "450px", "auto" ], //弹框大小
+				border: [ 0, .5, "#666" ],
+				dialog: {
+					msg: "确定要删除吗？确定要删除吗？确定要删除？确定要删除吗？确定要删除？确定要删除吗？确定要删除吗？",
+					btns: 2,   //1: 只有一个按钮   2：两个按钮  3：没有按钮 提示框
+					type: 2,   //1:对钩   2：问号  3：叹号  
+					btn: [ "删除", "再想想"],  //自定义按钮
+					yes: function() {  //点击左侧按钮：成功 
+						alert();
+					},
+					no: function() { //点击右侧按钮：失败
+						return false;
+					}
+				}
+			});
+		});
+	</script>	
+</body>
+</html>

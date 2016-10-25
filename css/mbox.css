@@ -1,0 +1,367 @@
+
+
+/*layout*/
+.jm-box-shade, .jm-box-layout {
+    position: fixed;
+    _position: absolute;
+}
+
+.jm-box-shade {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    _height: expression(document.body.offsetHeight+"px");
+}
+
+.jm-box-layout {
+    top: 150px;
+    left: 50%;
+    height: auto;
+    width: 310px;
+    margin-left: -155px;
+    /*border-radius: 3px;*/
+}
+
+.jm-box-border,
+.jm-box-title,
+.jm-box-title i,
+.jm-box-page,
+.jm-box-iframe,
+.jm-box-title em,
+.jm-box-close,
+    /*.jm-box-icon,*/
+.jm-box-moves {
+    position: absolute;
+}
+
+.jm-box-border {
+    /*border-radius: 5px;*/
+}
+
+.jm-box-title {
+    left: 0;
+    top: 0;
+}
+
+.jm-box-main {
+    position: relative;
+    height: 100%;
+    _float: left;
+    /*border-radius: 3px;*/
+    /*border: 1px solid #ccc;*/
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.jm-box-dialog {
+    border-top: 2px solid #f3473a;
+}
+
+.jm-box-page {
+    top: 0;
+    left: 0;
+}
+
+.jm-box-load {
+    background: url('../images/jm-box-loading0.gif') #fff center center no-repeat;
+}
+
+.jm-box-loading {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #FFF;
+    _float: none;
+}
+
+.jm-layer-png32 {
+    background: url('../images/jm-box-ico0.png') no-repeat;
+}
+
+.jm-box-moves {
+    border: 3px solid #666;
+    cursor: move;
+    background-color: rgba(255, 255, 255, .3);
+    background-color: #fff \9;
+    filter: alpha(opacity=50);
+}
+
+.jm-box-icon {
+    width: 30px;
+    height: 30px;
+    background: url('../images/jm-box-icon.png') no-repeat;
+    display: inline-block;
+    vertical-align: -9px;
+    margin-right: 10px;
+
+}
+
+.jm-box-text {
+    line-height: 30px;
+    padding: 0 30px;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 16px;
+    color: #666;
+    display: block;
+    text-align: center;
+}
+
+.jm-box-icon-0 {
+    background-position: -91px -38px;
+}
+
+/*成功*/
+.jm-box-icon-1 {
+    background-position: -60px 0;
+}
+
+/*询问*/
+.jm-box-icon-2 {
+    background-position: -30px 0;
+}
+
+/*警告*/
+.jm-box-icon-3 {
+    background-position: 0 0;
+}
+
+.jm-box-loading-0 {
+    width: 60px;
+    height: 24px;
+    background: url('../images/jm-box-loading0.gif') no-repeat;
+}
+
+.jm-box-loading-1 {
+    width: 37px;
+    height: 37px;
+    background: url('../images/jm-box-loading1.gif') no-repeat;
+}
+
+.jm-box-loading-2, .jm-box-icon-16 {
+    width: 32px;
+    height: 32px;
+    background: url('../images/jm-box-loading2.gif') no-repeat;
+}
+
+.jm-box-loading-3 {
+    width: 126px;
+    height: 22px;
+    background: url('../images/jm-box-loading3.gif') no-repeat;
+}
+
+.jm-box-setwin {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 0;
+}
+
+.jm-box-setwin a {
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    font-size: 12px;
+    _overflow: hidden;
+}
+
+.jm-box-setwin .jm-box-min cite {
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+    background-color: #919191;
+    cursor: pointer;
+    _overflow: hidden;
+}
+
+.jm-box-setwin .jm-box-min:hover cite {
+    background-color: #2D93CA;
+}
+
+.jm-box-setwin .jm-box-max {
+    background-position: -6px -189px;
+}
+
+.jm-box-setwin .jm-box-max:hover {
+    background-position: -6px -206px;
+}
+
+.jm-box-setwin .jm-box-maxmin {
+    background-position: -29px -189px;
+}
+
+.jm-box-setwin .jm-box-maxmin:hover {
+    background-position: -29px -206px;
+}
+
+.jm-box-setwin .jm-box-close0 {
+    width: 14px;
+    height: 14px;
+    background-position: -31px -7px;
+    cursor: pointer;
+}
+
+.jm-box-setwin .jm-box-close0:hover {
+    background-position: -51px -7px;
+}
+
+.jm-box-setwin .jm-box-close1 {
+    position: absolute;
+    right: -5px;
+    top: -8px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -60px -195px;
+    *right: -18px;
+    _right: -15px;
+    _top: -23px;
+    _width: 14px;
+    _height: 14px;
+    _background-position: -31px -7px;
+}
+
+.jm-box-setwin .jm-box-close1:hover {
+    background-position: -91px -195px;
+    _background-position: -51px -7px;
+}
+
+.jm-box-title {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #D5D5D5;
+    background: #f5f5f5;
+    font-size: 14px;
+    color: #333;
+}
+
+.jm-box-title em {
+    height: 20px;
+    line-height: 20px;
+    width: 60%;
+    top: 7px;
+    left: 10px;
+    font-style: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.jm-box-button a {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #333;
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+
+.jm-box-button a:hover {
+    text-decoration: none;
+    border-color: #ccc;
+}
+
+.jm-box-button .jm-box-button1 {
+    width: 79px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: -39px;
+    background-position: -6px -34px;
+}
+
+.jm-box-button1:hover {
+    background-position: -6px -72px;
+}
+
+.jm-box-button .jm-box-button2 {
+    margin-left: -76px;
+    width: 71px;
+    height: 29px;
+    line-height: 29px;
+    background: #ffffff;
+    color: #333
+}
+
+.jm-box-button2:hover {
+    background-position: -5px -146px;
+}
+
+.jm-box-button .jm-box-button3 {
+    width: 71px;
+    height: 29px;
+    line-height: 29px;
+    margin-left: 10px;
+    background-position: -81px -114px;
+}
+
+.jm-box-button3:hover {
+    background-position: -81px -146px;
+}
+
+.jm-box-tips {
+    position: relative;
+    line-height: 20px;
+    min-width: 12px;
+    padding: 5px;
+    font-size: 12px;
+    _float: left;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.jm-box-tips i.m-tips-G {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-color: transparent;
+    border-style: dashed;
+    *overflow: hidden;
+}
+
+.jm-box-tips i.m-tips-T, .jm-box-tips i.m-tips-B {
+    left: 50%;
+    margin-left: -8px;
+    border-right-style: solid;
+}
+
+.jm-box-tips i.m-tips-T {
+    bottom: -8px;
+}
+
+.jm-box-tips i.m-tips-B {
+    top: -15px;
+}
+
+.jm-box-tips i.m-tips-R, .jm-box-tips i.m-tips-L {
+    top: 1px;
+    border-bottom-style: solid;
+}
+
+.jm-box-tips i.m-tips-R {
+    left: -8px;
+}
+
+.jm-box-tips i.m-tips-L {
+    right: -8px;
+}
+
+
+
