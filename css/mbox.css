@@ -1,6 +1,3 @@
-
-
-/*layout*/
 .jm-box-shade, .jm-box-layout {
     position: fixed;
     _position: absolute;
@@ -22,7 +19,6 @@
     margin-left: -155px;
     /*border-radius: 3px;*/
 }
-
 .jm-box-border,
 .jm-box-title,
 .jm-box-title i,
@@ -30,30 +26,19 @@
 .jm-box-iframe,
 .jm-box-title em,
 .jm-box-close,
-    /*.jm-box-icon,*/
 .jm-box-moves {
     position: absolute;
 }
-
-.jm-box-border {
-    /*border-radius: 5px;*/
-}
-
 .jm-box-title {
     left: 0;
     top: 0;
 }
-
 .jm-box-main {
     position: relative;
     height: 100%;
     _float: left;
-    /*border-radius: 3px;*/
-    /*border: 1px solid #ccc;*/
     box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.2);
-
 }
-
 .jm-box-dialog {
     border-top: 2px solid #f3473a;
 }
@@ -66,7 +51,6 @@
 .jm-box-load {
     background: url('../images/jm-box-loading0.gif') #fff center center no-repeat;
 }
-
 .jm-box-loading {
     display: block;
     float: left;
@@ -74,11 +58,9 @@
     color: #FFF;
     _float: none;
 }
-
 .jm-layer-png32 {
     background: url('../images/jm-box-ico0.png') no-repeat;
 }
-
 .jm-box-moves {
     border: 3px solid #666;
     cursor: move;
@@ -86,7 +68,6 @@
     background-color: #fff \9;
     filter: alpha(opacity=50);
 }
-
 .jm-box-icon {
     width: 30px;
     height: 30px;
@@ -94,9 +75,7 @@
     display: inline-block;
     vertical-align: -9px;
     margin-right: 10px;
-
 }
-
 .jm-box-text {
     line-height: 30px;
     padding: 0 30px;
@@ -107,57 +86,44 @@
     display: block;
     text-align: center;
 }
-
 .jm-box-icon-0 {
     background-position: -91px -38px;
 }
-
-/*成功*/
 .jm-box-icon-1 {
     background-position: -60px 0;
 }
-
-/*询问*/
 .jm-box-icon-2 {
     background-position: -30px 0;
 }
-
-/*警告*/
 .jm-box-icon-3 {
     background-position: 0 0;
 }
-
 .jm-box-loading-0 {
     width: 60px;
     height: 24px;
     background: url('../images/jm-box-loading0.gif') no-repeat;
 }
-
 .jm-box-loading-1 {
     width: 37px;
     height: 37px;
     background: url('../images/jm-box-loading1.gif') no-repeat;
 }
-
 .jm-box-loading-2, .jm-box-icon-16 {
     width: 32px;
     height: 32px;
     background: url('../images/jm-box-loading2.gif') no-repeat;
 }
-
 .jm-box-loading-3 {
     width: 126px;
     height: 22px;
     background: url('../images/jm-box-loading3.gif') no-repeat;
 }
-
 .jm-box-setwin {
     position: absolute;
     right: 10px;
     top: 10px;
     font-size: 0;
 }
-
 .jm-box-setwin a {
     position: relative;
     display: inline-block;
@@ -170,7 +136,6 @@
     font-size: 12px;
     _overflow: hidden;
 }
-
 .jm-box-setwin .jm-box-min cite {
     position: absolute;
     width: 14px;
@@ -349,7 +314,6 @@
 .jm-box-tips i.m-tips-B {
     top: -15px;
 }
-
 .jm-box-tips i.m-tips-R, .jm-box-tips i.m-tips-L {
     top: 1px;
     border-bottom-style: solid;
