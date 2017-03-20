@@ -1,5 +1,3 @@
-function include_js(a){var b=document.createElement("script");b.type="text/javascript",b.src="http://img.xx.com/static/jmw/js/"+a;var c=document.getElementsByTagName("head")[0];c.appendChild(b)}function include_plugins(a){var b=document.createElement("script");b.type="text/javascript",b.src="http://img.xxx.com/static/jmw/plugins/"+a;var c=document.getElementsByTagName("head")[0];c.appendChild(b)}function include_css(a){var b=document.createElement("link");b.rel="stylesheet",b.type="text/css",b.href="http://img.http.com/static/jmw"+a;var c=document.getElementsByTagName("head")[0];c.appendChild(b)}!function(){return}();
-
 ;! function(a, b) {
     "use strict";
     var c,d,e,f,g,h = "",
